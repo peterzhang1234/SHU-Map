@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>922</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>0</y>
+      <width>171</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(232, 232, 232)</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>90</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;起点&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>160</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;终点&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>410</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;全程约&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>东门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>一号体育场（K区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>音乐学院</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>体育馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>训练馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>游泳馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>乐乎新楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>训练场（A区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>风雨操场（C区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（B区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>北门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>校医院</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>出版社</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>玄陵网球馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>网球场（E区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场/排球场（F区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（G区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>尔美食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>山明食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>益新食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1号楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>伟长楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>G楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>FJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>E楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>EJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>J楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>水秀食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>D楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>行政楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>溯园</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>美术学院</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>南正门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>图书馆/图报厅</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（H区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>足球场（J区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（I区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>沙滩/高尔夫球场/排球场（L区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>后勤基建大楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>南二门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>五馨食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新世纪</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>190</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>东门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>一号体育场（K区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>音乐学院</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>体育馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>训练馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>游泳馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>乐乎新楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>训练场（A区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>风雨操场（C区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（B区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>北门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>校医院</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>出版社</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>玄陵网球馆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>网球场（E区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场/排球场（F区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（G区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>尔美食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>山明食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>益新食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1号楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>伟长楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>G楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>F楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>FJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>E楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>EJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>J楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>水秀食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>D楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AJ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>行政楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>溯园</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>美术学院</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>南正门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>图书馆/图报厅</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（H区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>足球场（J区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>篮球场（I区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>沙滩/高尔夫球场/排球场（L区）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>后勤基建大楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>南二门</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>五馨食堂</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新世纪</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>10</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic; color:#550000;&quot;&gt;上海大学&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic; color:#550000;&quot;&gt;校园导航&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>重置</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcdNumber">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>410</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>true</bool>
+     </property>
+     <property name="digitCount">
+      <number>4</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>460</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;min&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;选择出行方式&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcdNumber_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>460</y>
+       <width>64</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>true</bool>
+     </property>
+     <property name="digitCount">
+      <number>4</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>320</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+     <item>
+      <property name="text">
+       <string>骑行</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>步行</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>460</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;共需约&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>410</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;m&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>360</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://caiyunapp.com/weather/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;点我查看天气情况&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>530</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;*所用图片由上海大学学生会原创&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>751</width>
+      <height>612</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>widget</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>922</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
