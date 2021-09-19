@@ -1,0 +1,7 @@
+# temp files directories
+.vscode/
+.idea/
+.git/
+build/
+*.user.*
+
