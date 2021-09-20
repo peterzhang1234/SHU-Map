@@ -11,7 +11,7 @@ cd build
 qmake ..
 make
 ```
-### 对于Windows平台，可以使用Qt Creater或VS编译
+### 对于Windows平台，可以使用Qt Creator或VS编译
 
 
 ---
